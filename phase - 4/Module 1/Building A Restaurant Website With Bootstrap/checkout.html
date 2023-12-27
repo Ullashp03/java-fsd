@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <title>Food Express - Checkout</title>
+</head>
+<body>
+    <header>
+        <h1>Food Express</h1>
+        <p>Order Summary</p>
+    </header>
+
+    <section class="order-summary">
+        <h2>Order Summary</h2>
+        <ul>
+            <li>Burger x 2 = 300</li>
+            
+        </ul>
+        <p>Total: 300</p>
+    </section>
+
+    <section class="payment-form">
+        <h2>Payment Details</h2>
+        <form action="order-confirmation.html" method="post">
+            <label for="card">Credit Card Number:</label>
+            <input type="text" id="card" name="card" required>
+
+            <label for="expiry">Expiry Date:</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/YYYY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Food Express</p>
+    </footer>
+</body>
+</html>

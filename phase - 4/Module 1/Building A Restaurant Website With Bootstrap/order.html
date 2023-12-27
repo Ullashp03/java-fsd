@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles3.css">
+    <title>Food Express - Order Now</title>
+</head>
+<body>
+    <header>
+        <h1>Food Express</h1>
+        <p>Order your favorite food online</p>
+    </header>
+
+    <section class="order-form">
+        <h2>Place Your Order</h2>
+        <form action="checkout.html" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+            <label for="items">Select Items:</label>
+            <select id="items" name="items" multiple required>
+                <option value="French Fries">French Fries</option>
+                <option value="CocaCola">CocaCola</option>
+                <option value="Chicken Wings">Chicken Wings</option>
+                <option value="burger">Burger</option>
+                <option value="Pizza">Pizza</option>
+            </select>
+
+            <label for="items">Quantity:</label>
+            <select id="items" name="items" multiple required>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment" required>
+                <option value="credit">Credit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="phonepe">phonepe</option>
+                <option value="paytm">paytm</option>
+            </select>
+            <a href="checkout.html">
+            <button type="submit">Proceed to Checkout</button>
+            </a>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Food Express</p>
+    </footer>
+</body>
+</html>
