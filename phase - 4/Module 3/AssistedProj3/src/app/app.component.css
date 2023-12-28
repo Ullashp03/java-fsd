@@ -1,0 +1,12 @@
+.active{
+    background-color: aquamarine;
+    color: white;
+}
+
+
+
+
+.inactive{
+    background-color: bisque;
+    color: blue;
+}
