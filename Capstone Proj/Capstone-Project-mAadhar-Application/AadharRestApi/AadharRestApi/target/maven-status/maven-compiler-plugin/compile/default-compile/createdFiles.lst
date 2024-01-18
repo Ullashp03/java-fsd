@@ -1,0 +1,12 @@
+com\example\capstone\AadharRestApi\Controller\RestApiController.class
+com\example\capstone\AadharRestApi\Entity\User.class
+com\example\capstone\AadharBackendApplication.class
+com\examples\capstone\AadharRestApi\Exception\AdminNotFoundException.class
+com\examples\capstone\AadharRestApi\Exception\UserNotFoundException.class
+com\example\capstone\AadharRestApi\Entity\Citizens.class
+com\example\capstone\AadharRestApi\Repository\AdminRepo.class
+com\example\capstone\AadharRestApi\Repository\UserRepo.class
+com\example\capstone\AadharRestApi\Repository\CitizensRepo.class
+com\examples\capstone\AadharRestApi\Exception\CitizenNotFoundException.class
+com\example\capstone\AadharRestApi\Entity\Admin.class
+com\example\capstone\AadharRestApi\Controller\AadharApiException.class
